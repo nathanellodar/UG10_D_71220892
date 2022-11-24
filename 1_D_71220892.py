@@ -33,10 +33,10 @@ if pilihan <=5:
         p=int(input("Masukan bilangan pertama:"))
         d=int(input("Masukan bilangan kedua:"))
         rumus2=(p%d)
-        print("hasil dari", p, "di pembagian dengan", d, "adalah", rumus2)
-    elif pilihan == 4:
+        print("hasil dari", p, "di modulo dengan", d, "adalah", rumus2)
+    elif pilihan == 6:
         p=int(input("Masukan bilangan pertama:"))
         d=int(input("Masukan bilangan kedua:"))
         rumus2=(p**d)
-        print("hasil dari", p, "di pembagian dengan", d, "adalah", rumus2)
+        print("hasil dari", p, "di pemangkatan dengan", d, "adalah", rumus2)
     
