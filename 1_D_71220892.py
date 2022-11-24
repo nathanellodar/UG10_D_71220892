@@ -19,4 +19,24 @@ while pilihan <=5:
         d=int(input("Masukan bilangan kedua:"))
         rumus2=(p-d)
         print("hasil dari", p, "di pengurangan dengan", d, "adalah", rumus2)
+    elif pilihan == 3:
+        p=int(input("Masukan bilangan pertama:"))
+        d=int(input("Masukan bilangan kedua:"))
+        rumus2=(p*d)
+        print("hasil dari", p, "di perkalian dengan", d, "adalah", rumus2)
+    elif pilihan == 4:
+        p=int(input("Masukan bilangan pertama:"))
+        d=int(input("Masukan bilangan kedua:"))
+        rumus2=(p/d)
+        print("hasil dari", p, "di pembagian dengan", d, "adalah", rumus2)
+    elif pilihan == 5:
+        p=int(input("Masukan bilangan pertama:"))
+        d=int(input("Masukan bilangan kedua:"))
+        rumus2=(p%d)
+        print("hasil dari", p, "di pembagian dengan", d, "adalah", rumus2)
+    elif pilihan == 4:
+        p=int(input("Masukan bilangan pertama:"))
+        d=int(input("Masukan bilangan kedua:"))
+        rumus2=(p**d)
+        print("hasil dari", p, "di pembagian dengan", d, "adalah", rumus2)
     
