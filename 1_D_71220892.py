@@ -6,7 +6,7 @@ print("Ketik 4 untuk menghitung pembagian")
 print("Ketik 5 untuk menghitung sisa hasil bagi (modulus)")
 print("Ketik 6 untuk menghitung pemangkatan")
 pilihan = 1
-while pilihan <=5:
+if pilihan <=5:
     pilihan = int(input("masukan pilhan anda:"))
     if pilihan == 1:
         p=int(input("Masukan bilangan pertama:"))
