@@ -23,35 +23,4 @@ while pilihan <=5:
         print ('Jarak Tempuh %g meter'%(jarak))
         print('\n')
         continue
-    elif pilihan == 3:
-        print ('Menghitung Energi Kinetik, Energi Potensial dan Energi Mekanik')
-        m=float(input('Berapa Massa Benda? (Kilogram) '))
-        h=float(input('Berapa Ketinggian Benda? (Meter) '))
-        v=float(input('Berapa Kecepatan Benda? (Meter/Detik) '))
-        g=9.81
-        energikinetik = 0.5*m*v*v
-        energipotensial = m*g*h
-        energimekanik = energipotensial + energikinetik
-        print ('Hasil Perhitungan Energi Kinetik, Energi Potensial, Energi Mekanik')
-        print ('Energi Kinetik Pada Benda adalah   : %f Joule'%(energikinetik))
-        print ('Energi Potensial Pada Benda adalah : %f Joule'%(energipotensial))
-        print ('Energi Mekanik Pada Benda adalah   : %f Joule'%(energimekanik))
-        print ('---------------------------============--------------------------------')
-        print('\n')
-        continue
-    elif pilihan == 4:
-        print ('Menghitung Gaya Coulomb')
-        Q1=float(input('Masukan Muatan Pertama '))
-        Q2=float(input('Masukan Muatan Kedua '))
-        R=float(input('Masukan Jarak Pada Muatan (Meter) '))
-        k=9*10**9
-        FCoulomb=k*Q1*Q2/R**2
-        print ('Hasil Perhitungan Gaya Coulomb')
-        print ('Gaya Coulomb adalah : %f Newton'%(FCoulomb))
-        print ('---------------------------============--------------------------------')
-        print ('\n')
-        continue
-    elif pilihan == 5:
-        print (' ======================Wassalamualaikum.Wr.Wb====================== ')
-        print (' ===========================TERIMAKASIH============================== ')
-        exit();
+  
